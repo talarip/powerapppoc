@@ -1,0 +1,125 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd41_countries",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd41_country",
+    "MaxGetRowsCount": 500,
+    "Name": "Countries_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crd41_challengeintro": "Challenge Intro",
+      "crd41_country_AsyncOperations": "System Jobs",
+      "crd41_country_BulkDeleteFailures": "Bulk Delete Failures",
+      "crd41_country_DuplicateBaseRecord": "Duplicate Records (crd41_country_DuplicateBaseRecord)",
+      "crd41_country_DuplicateMatchingRecord": "Duplicate Records (crd41_country_DuplicateMatchingRecord)",
+      "crd41_country_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crd41_country_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crd41_country_ProcessSession": "Process Sessions",
+      "crd41_country_SyncErrors": "Sync Errors",
+      "crd41_countryid": "Country",
+      "crd41_geocode": "Geo Code",
+      "crd41_introduction": "Introduction",
+      "crd41_isocode": "ISO Code",
+      "crd41_latitude": "Latitude",
+      "crd41_longitude": "Longitude",
+      "crd41_name": "Name",
+      "crd41_sponsorshipstatus": "Sponsorship Status",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Countries_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Countries_1 (Views)",
+    "Name": "_crd41_country_views",
+    "RelatedEntityName": "Countries_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3faf6a32-3748-ef11-a317-000d3a536387": "CN Countries List",
+      "7314f59d-6ab2-4dbc-a6e2-a614b0965047": "Country Associated View",
+      "7fa7bb11-9e18-456e-9831-78e73561bc07": "Active Countries",
+      "8ffc896a-ae70-43fd-8b12-95cb6d3830b9": "Inactive Countries",
+      "ea5e6109-6735-41d1-9373-717576da06f0": "Country Lookup View",
+      "fbbd4606-3c8a-4701-ae34-510e4a3d07c7": "Country Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Sponsorship Status (Countries_1)",
+    "Name": "crd41_country_crd41_sponsorshipstatus",
+    "OptionSetInfoNameMapping": {
+      "0": "Inactive",
+      "1": "Active"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd41_sponsorshipstatus",
+        "OptionSetReferenceEntityName": "Countries_1"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crd41_sponsorshipstatus",
+    "RelatedEntityName": "Countries_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Countries_1)",
+    "Name": "crd41_country_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Countries_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Countries_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Countries_1)",
+    "Name": "crd41_country_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Countries_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Countries_1",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_crd41_country_forms",
+      "Namespace": "Countries_1 (Forms)",
+      "Values": {
+        "Country Form": "ca769ae9-3948-ef11-a317-000d3a4e4343",
+        "Information": "56399224-53f1-48ae-9feb-c5ca9647ac10"
+      }
+    },
+    {
+      "Kind": "default.cds_crd41_community_forms",
+      "Namespace": "Communities (Forms)",
+      "Values": {
+        "Community Form": "2000badc-3d48-ef11-a317-000d3a4e4343",
+        "Information": "375b9c75-358f-48cc-9815-6dea5722ccdb"
+      }
+    },
+    {
+      "Kind": "default.cds_connectionreference_forms",
+      "Namespace": "Connection References (Forms)",
+      "Values": {}
+    }
+  ]
+}

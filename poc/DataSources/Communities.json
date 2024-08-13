@@ -1,0 +1,128 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crd41_communities",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crd41_community",
+    "MaxGetRowsCount": 500,
+    "Name": "Communities",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crd41_adpid": "ADP ID",
+      "crd41_challengeintro": "Challenge Intro",
+      "crd41_community_AsyncOperations": "System Jobs",
+      "crd41_community_BulkDeleteFailures": "Bulk Delete Failures",
+      "crd41_community_DuplicateBaseRecord": "Duplicate Records (crd41_community_DuplicateBaseRecord)",
+      "crd41_community_DuplicateMatchingRecord": "Duplicate Records (crd41_community_DuplicateMatchingRecord)",
+      "crd41_community_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crd41_community_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crd41_community_ProcessSession": "Process Sessions",
+      "crd41_community_SyncErrors": "Sync Errors",
+      "crd41_communitycountry": "Community Country",
+      "crd41_communityid": "Community",
+      "crd41_name": "Name",
+      "crd41_startdate": "Start Date",
+      "crd41_status": "Status (crd41_status)",
+      "crd41_title": "Country Data",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status (statecode)",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Communities",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Communities (Views)",
+    "Name": "_crd41_community_views",
+    "RelatedEntityName": "Communities",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3ad21af4-4a93-43d1-a379-3f63107c1809": "Community Lookup View",
+      "7239c82a-bb38-ef11-8409-000d3a8e6fc4": "Communities View",
+      "7ec0c6f9-aaba-4f75-9179-357073bf6428": "Active Communities (7ec0c6f9-aaba-4f75-9179-357073bf6428)",
+      "a0493377-1c05-4c68-b258-83a39e8ce428": "Inactive Communities",
+      "a1624d02-bb38-ef11-8409-000d3a1e7545": "Active Communities (a1624d02-bb38-ef11-8409-000d3a1e7545)",
+      "af374462-d9ee-49f7-92f7-9edf7cfc6b26": "Community Associated View",
+      "f463f801-e993-406b-8609-fb8bad67f618": "Community Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Status (Communities)",
+    "Name": "crd41_community_crd41_status",
+    "OptionSetInfoNameMapping": {
+      "1": "New",
+      "2": "Brand New",
+      "3": "Existing",
+      "4": "Country Level",
+      "5": "Archive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crd41_status",
+        "OptionSetReferenceEntityName": "Communities"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crd41_status",
+    "RelatedEntityName": "Communities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Communities)_1",
+    "Name": "crd41_community_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Communities"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Communities",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Communities)",
+    "Name": "crd41_community_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Communities"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Communities",
+    "Type": "OptionSetInfo"
+  }
+]
